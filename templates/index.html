@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Weather App</title>
-</head>
-<body>
-    
-    
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <h1 class="mt-5 me-5 ms-5 text-center border border-info rounded-3">
+      Weather App
+    </h1>
+    <form
+      action="/"
+      method="post"
+      class="d-flex justify-content-center align-content-center mt-4"
+    >
+      <input
+        type="text"
+        id="CityName"
+        placeholder="City"
+        class="input-group-text text-center me-3"
+      />
+      <input
+        type="text"
+        id="stateName"
+        name="stateName"
+        value="ON"
+        class="input-group-text text-center me-3"
+      />
+      <input
+        type="text"
+        id="countryName"
+        name="countryName"
+        value="Canada"
+        class="input-group-text text-center me-3"
+      />
+      <button class="me-3 btn btn-outline-light">Find</button>
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
